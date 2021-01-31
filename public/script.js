@@ -43,7 +43,7 @@ const userConnected = (userId, stream) => {
   const call = peer.call(userId, stream);
   const videoElement = document.createElement("video");
   call.on("stream", (userVideoStream) => {
-    // addVideoStream(videoElement, userVideoStream);
+    addVideoStream(videoElement, userVideoStream);
   });
 };
 
