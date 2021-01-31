@@ -32,6 +32,8 @@ video {
 
 .chat {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 250px;
   height: 80vh;
   border: 2px solid black;
@@ -47,4 +49,20 @@ video {
 .containerBody {
   display: flex;
   justify-content: center;
+}
+
+.title {
+  width: 225px;
+  height: 30px;
+  background-color: white;
+}
+.listMessage {
+  width: 225px;
+  height: 700px;
+  background-color: black;
+}
+.textMessage {
+  width: 225px;
+  height: 30px;
+  background-color: white;
 }
